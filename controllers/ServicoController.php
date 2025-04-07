@@ -33,6 +33,10 @@ switch ($acao) {
         header('Location: ?acao=listar');
         break;
 
+    case 'abrir_agenda':
+        include __DIR__.'/../views/abrir_agenda.php';
+        break;
+
     default:
         echo "Ação não encontrada";
         break;
