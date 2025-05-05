@@ -37,6 +37,10 @@ switch ($acao) {
         include __DIR__.'/../views/abrir_agenda.php';
         break;
 
+    case 'painel':
+        include __DIR__.'/../views/painel.php';
+        break;
+
     default:
         echo "Ação não encontrada";
         break;
