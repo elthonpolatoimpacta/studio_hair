@@ -64,6 +64,7 @@ $datas = $stmtDatas->fetchAll(PDO::FETCH_ASSOC);
             <button type="submit" class="btn btn-primary">Confirmar Agendamento</button>
         </div>
     </form>
+    <a href="../../public/index.php" class="btn btn-custom">← Voltar para o início</a>
 </div>
 
 <script>
