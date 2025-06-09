@@ -9,11 +9,11 @@ class Agendamento {
         return $stmt->fetchAll(PDO::FETCH_ASSOC);
     }
 
-    public static function criar($cliente, $horario) {
+    public static function criar($cliente, $horario, $telefone) {
         //$pdo = Conexao::getConnection();
         global $pdo;
-        $stmt = $pdo->prepare("INSERT INTO agendamentos (cliente, horario) VALUES (?, ?)");
-        return $stmt->execute([$cliente, $horario]);
+        $stmt = $pdo->prepare("INSERT INTO agendamentos (cliente, horario, telefone) VALUES (?, ?, ?)");
+        return $stmt->execute([$cliente, $horario, $telefone]);
     }
 
     public static function deletar($id) {

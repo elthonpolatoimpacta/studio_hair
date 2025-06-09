@@ -23,7 +23,11 @@
             <button type="submit" class="btn btn-primary">Salvar</button>
             <a href="?acao=listar" class="btn btn-warning">Cancelar</a>
         </form>
+    <div class="mt-4">
+        <a href="../public/index.php" class="btn btn-custom">← Voltar para o início</a>
     </div>
+    </div>
+        
 
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"></script>

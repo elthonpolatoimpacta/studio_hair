@@ -103,9 +103,8 @@
   </div>
 
   <div class="mt-4">
-    <button class="btn btn-primary" onclick="salvarAgenda()">Salvar</button>
+    <button class="btn btn-primary" onclick="salvarAgenda()">Salvar</button><a href="../public/index.php" class="btn btn-custom">← Voltar para o início</a>
   </div>
-
   <script>
     async function buscarDias(ano, mes) {
       const res = await fetch(`../controllers/AgendaController.php?acao=buscar&ano=${ano}&mes=${mes}`);

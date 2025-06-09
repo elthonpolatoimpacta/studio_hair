@@ -37,6 +37,9 @@ $agendamentos = Agendamento::listarPorData($data);
         <?php endforeach; ?>
         </tbody>
     </table>
+    <div class="mt-4">
+        <a href="../public/index.php" class="btn btn-custom">← Voltar para o início</a>
+    </div>
 </div>
 </body>
 </html>
